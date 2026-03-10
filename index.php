@@ -32,7 +32,7 @@ $contactos = $stmt->fetchAll(PDO::FETCH_ASSOC);
       </tr>
     <?php endforeach; ?>
     <?php if (empty($contactos)): ?>
-      <tr><td colspan="6" style="text-align:center">No hay contactos aún.</td></tr>
+      <tr><td colspan="6" style="text-align:center">No hay contactos aún Hola.</td></tr>
     <?php endif; ?>
     </tbody>
   </table>
