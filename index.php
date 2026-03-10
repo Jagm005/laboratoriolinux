@@ -10,7 +10,7 @@ $contactos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head><meta charset="UTF-8"><title>Agenda de Contactos</title><link rel="stylesheet" href="style.css"></head>
 <body>
 <div class="container">
-  <h1>📋 Agenda de Contactos</h1>
+  <h1>📋 Agenda de Contactos prueba</h1>
   <div class="toolbar">
     <form method="GET">
       <input type="text" name="q" placeholder="🔍 Buscar por nombre..." value="<?= htmlspecialchars($buscar) ?>">
