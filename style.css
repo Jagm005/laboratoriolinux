@@ -1,0 +1,16 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #f0f4f8; color: #333; }
+.container { max-width: 960px; margin: 40px auto; background: white; border-radius: 10px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+h1 { color: #1F4E79; margin-bottom: 20px; font-size: 1.8rem; }
+.toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 10px; }
+input[type=text], input[type=tel], input[type=email], select { padding: 8px 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.95rem; }
+button, .btn-add { background: #2E75B6; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; text-decoration: none; font-size: 0.95rem; }
+button:hover, .btn-add:hover { background: #1F4E79; }
+form input, form select { display: block; width: 100%; margin-bottom: 14px; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+form button { width: 100%; padding: 12px; font-size: 1rem; }
+form a { display: block; text-align: center; margin-top: 12px; color: #2E75B6; }
+table { width: 100%; border-collapse: collapse; }
+th { background: #1F4E79; color: white; padding: 10px; text-align: left; }
+td { padding: 10px; border-bottom: 1px solid #eee; }
+tr:hover { background: #f7f9fc; }
+.badge { background: #D6E4F0; color: #1F4E79; padding: 3px 10px; border-radius: 12px; font-size: 0.85rem; }
