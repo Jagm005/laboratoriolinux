@@ -16,7 +16,7 @@ $contactos = $stmt->fetchAll(PDO::FETCH_ASSOC);
       <input type="text" name="q" placeholder="🔍 Buscar por nombre..." value="<?= htmlspecialchars($buscar) ?>">
       <button type="submit">Buscar</button>
     </form>
-    <a href="agregar.php" class="btn-add">➕ Nuevo Contacto Probando</a>
+    <a href="agregar.php" class="btn-add">➕ Nuevo Contacto</a>
   </div>
   <table>
     <thead><tr><th>Nombre</th><th>Teléfono</th><th>Email</th><th>Categoría</th><th>Fecha</th><th>Acción</th></tr></thead>
@@ -32,7 +32,7 @@ $contactos = $stmt->fetchAll(PDO::FETCH_ASSOC);
       </tr>
     <?php endforeach; ?>
     <?php if (empty($contactos)): ?>
-      <tr><td colspan="6" style="text-align:center">No hay contactos aún Hola.</td></tr>
+      <tr><td colspan="6" style="text-align:center">No hay contactos aún.</td></tr>
     <?php endif; ?>
     </tbody>
   </table>
