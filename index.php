@@ -10,13 +10,13 @@ $contactos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head><meta charset="UTF-8"><title>Agenda de Contactos</title><link rel="stylesheet" href="style.css"></head>
 <body>
 <div class="container">
-  <h1>📋 Agenda de Contactos prueba</h1>
+  <h1>Agenda de Contactos prueba</h1>
   <div class="toolbar">
     <form method="GET">
       <input type="text" name="q" placeholder="🔍 Buscar por nombre..." value="<?= htmlspecialchars($buscar) ?>">
       <button type="submit">Buscar</button>
     </form>
-    <a href="agregar.php" class="btn-add">➕ Nuevo Contacto Acá</a>
+    <a href="agregar.php" class="btn-add">➕ Ya</a>
   </div>
   <table>
     <thead><tr><th>Nombre</th><th>Teléfono</th><th>Email</th><th>Categoría</th><th>Fecha</th><th>Acción</th></tr></thead>
